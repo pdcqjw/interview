@@ -1,10 +1,11 @@
 import buzzfizz.AdvancedBuzzFizzRule;
 import buzzfizz.BuzzFizzGame;
 import buzzfizz.BuzzFizzRule;
+import org.junit.Test;
 
-public class Main {
-
-    public static void main(String[] args) {
+public class BuzzFizzGameTest {
+    @Test
+    public void test(){
         /* 1.define some params
          * start - the game start number
          * last - the game last number
@@ -21,6 +22,6 @@ public class Main {
 
         //4.start game
         buzzFizzGame.start();
-
+        System.out.println("Print Finished");
     }
 }
