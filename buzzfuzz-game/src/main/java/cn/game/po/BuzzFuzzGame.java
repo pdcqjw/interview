@@ -1,6 +1,5 @@
 package cn.game.po;
 
-import java.util.Iterator;
 import java.util.Set;
 
 import cn.game.util.SetSort;
