@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    environment {
+    }
+    stages {
+        stage('get code and deploy') {
+            steps {
+                # run fabric command to get code from git and run it on remote server
+                # for more information please check fabfile.py
+                echo "code deploy"
+                sh "fab deploy"
+            }
+        }
+    }
+}

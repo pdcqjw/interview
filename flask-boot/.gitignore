@@ -1,0 +1,20 @@
+# Byte-compiled
+*.pyc
+
+# Logs
+app/logs/*.log
+
+# LocalConfig
+instance/config.py
+
+# PyCharm
+.idea/
+
+# Data preparation
+app/scripts/*.json
+
+# Wsgi
+wsgi.pid
+
+# Uploads
+app/static/uploads/
